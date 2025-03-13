@@ -3,3 +3,7 @@ build
 uploads
 .env
 .DS_Store
+bonus-app-frontend/node_modules/
+bonus-app-frontend/build/
+.env
+*.log

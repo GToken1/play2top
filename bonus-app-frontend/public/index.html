@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Play2Top - OAuth with Yandex ID" />
+    <title>Play2Top</title>
+
+    <!-- Разрешить iframe от autofill.yandex.ru -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="frame-ancestors 'self' https://autofill.yandex.ru/;"
+    />
+
+    <!-- Подключаем скрипты Яндекс AuthSuggest -->
+    <script src="https://yastatic.net/s3/passport-sdk/autofill/v1/sdk-suggest-with-polyfills-latest.js"></script>
+    <script src="https://yastatic.net/s3/passport-sdk/autofill/v1/sdk-suggest-token-with-polyfills-latest.js"></script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
